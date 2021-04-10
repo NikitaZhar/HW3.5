@@ -16,6 +16,7 @@
 		534F2EA12620B1F1009733D4 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534F2EA02620B1F1009733D4 /* UserProfile.swift */; };
 		534F2EA42620B28C009733D4 /* UsersList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534F2EA32620B28C009733D4 /* UsersList.swift */; };
 		534F2EA72620B2A8009733D4 /* UsersNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534F2EA62620B2A8009733D4 /* UsersNumbers.swift */; };
+		534F2EAA2620F141009733D4 /* ContactRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534F2EA92620F141009733D4 /* ContactRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		534F2EA02620B1F1009733D4 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		534F2EA32620B28C009733D4 /* UsersList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersList.swift; sourceTree = "<group>"; };
 		534F2EA62620B2A8009733D4 /* UsersNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersNumbers.swift; sourceTree = "<group>"; };
+		534F2EA92620F141009733D4 /* ContactRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				534F2E892620A88B009733D4 /* HW3_5App.swift */,
 				534F2E8B2620A88B009733D4 /* ContentView.swift */,
 				534F2EA02620B1F1009733D4 /* UserProfile.swift */,
+				534F2EA92620F141009733D4 /* ContactRow.swift */,
 				534F2EA32620B28C009733D4 /* UsersList.swift */,
 				534F2EA62620B2A8009733D4 /* UsersNumbers.swift */,
 				534F2E992620A8AB009733D4 /* Model.swift */,
@@ -160,6 +163,7 @@
 				534F2EA12620B1F1009733D4 /* UserProfile.swift in Sources */,
 				534F2E8C2620A88B009733D4 /* ContentView.swift in Sources */,
 				534F2E8A2620A88B009733D4 /* HW3_5App.swift in Sources */,
+				534F2EAA2620F141009733D4 /* ContactRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

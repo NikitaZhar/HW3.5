@@ -13,7 +13,9 @@ struct UsersList: View {
     var body: some View {
         NavigationView {
             List(persons, id: \.firstName) { person in
-                Text("\(person.fullName)")
+                NavigationLink(destination: UserProfile(person: person)) {
+                    Text("\(person.fullName)")
+                }
             }
             .navigationBarTitle("Contact List")
         }

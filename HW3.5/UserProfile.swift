@@ -11,7 +11,7 @@ struct UserProfile: View {
     let person: Person
     
     var body: some View {
-        VStack(spacing:20) {
+        VStack {
             Text("\(person.fullName)")
                 .font(.system(size: 40))
                 .frame(maxWidth: .infinity, alignment: .leading)
@@ -21,28 +21,13 @@ struct UserProfile: View {
                 .resizable()
                 .frame(width: 150, height: 150)
                 .padding()
+                .opacity(0.5)
             
-            HStack {
-                Image(systemName: "phone")
-                    .foregroundColor(.blue)
-                    .frame(width: 50, alignment: .leading)
-                Text("\(person.phone)")
-            }
-            .font(.system(size: 20))
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .offset(x: 30)
-            
-            HStack {
-                Image(systemName: "tray")
-                    .foregroundColor(.blue)
-                    .frame(width: 50, alignment: .leading)
-                Text("\(person.mail)")
-            }
-            .font(.system(size: 20))
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .offset(x: 30)
+            ContactRow(imageName: "phone", textToShow: "\(person.phone)")
+            ContactRow(imageName: "tray", textToShow: "\(person.mail)")
             Spacer()
         }
+        .frame(alignment: .leading)
     }
 }
 
